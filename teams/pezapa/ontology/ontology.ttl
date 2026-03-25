@@ -87,27 +87,15 @@
   rdfs:label "web" ;
   rdfs:domain <http://example.org/def/teatrosyauditorios#DatoContacto> .
 
-dc:created a owl:AnnotationProperty .
-dc:creator a owl:AnnotationProperty .
-dc:description a owl:AnnotationProperty .
-dc:license a owl:AnnotationProperty .
-dc:title a owl:AnnotationProperty .
-<http://purl.org/vocab/vann/preferredNamespacePrefix> a owl:AnnotationProperty .
-<http://purl.org/vocab/vann/preferredNamespaceUri> a owl:AnnotationProperty .
-owl:priorVersion a owl:AnnotationProperty .
-owl:versionIRI a owl:AnnotationProperty .
-owl:versionInfo a owl:AnnotationProperty .
-<https://w3id.org/example#>
+
+<http://example.org/def/teatrosyauditorios>
   a owl:Ontology ;
   dc:created "2026-03-05"^^xsd:date ;
   dc:creator "Óscar Padín Devesa, Pablo Pérez Rodríguez, Jaime Zapico López" ;
   dc:description "Ontología basada en datos recogidos de localizacion y datos de contacto de teatros y auditorios en la comunidad autónoma de Galicia."@es ;
   dc:license <https://creativecommons.org/licenses/by/4.0/> ;
   dc:title "Teatros y Auditorios en Galicia"@es ;
-  ns0:preferredNamespacePrefix "choosenprefix" ;
-  ns0:preferredNamespaceUri <https://w3id.org/example#> ;
-  owl:priorVersion <https://w3id.org/example/1.0.0> ;
-  owl:versionIRI <https://w3id.org/example/1.0.1> ;
+  ns0:preferredNamespaceUri <http://example.org/def/teatrosyauditorios#> ;
   owl:versionInfo "0.0.1" ;
   ns1:createdWith <https://chowlk.linkeddata.es/> .
 
